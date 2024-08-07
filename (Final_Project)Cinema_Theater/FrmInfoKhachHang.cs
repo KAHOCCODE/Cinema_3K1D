@@ -297,5 +297,9 @@ namespace _Final_Project_Cinema_Theater
             }
         }
 
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+             
+        }
     }
 }

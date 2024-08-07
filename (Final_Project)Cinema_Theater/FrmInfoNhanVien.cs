@@ -330,6 +330,11 @@ namespace _Final_Project_Cinema_Theater
                 AnhNhanVien.Image = new Bitmap(ofd.FileName);
             }
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+             
+        }
     }
 }
 
