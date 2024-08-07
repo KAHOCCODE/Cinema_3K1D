@@ -70,7 +70,6 @@
             // 
             this.TxtTim.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.TxtTim.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TxtTim.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TxtTim.Name = "TxtTim";
             this.TxtTim.Size = new System.Drawing.Size(150, 25);
             this.TxtTim.Tag = "Nhập nội dung cần tìm";
