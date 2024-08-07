@@ -66,7 +66,7 @@ namespace _Final_Project_Cinema_Theater
                 {
                     connDB.conn.Open();
                 }
-                int count = (int)cmd.ExecuteScalar();
+                int count = (int)cmd.ExecuteScalar(); 
                 return count > 0;
             }
         }

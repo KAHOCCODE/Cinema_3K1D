@@ -17,7 +17,7 @@ namespace _Final_Project_Cinema_Theater
         public FrmInfoKhachHang()
         {
             InitializeComponent();
-        }
+        } 
         //Dùng class SQLCONNECTION để kết nối database
         SQLCONNECTION connDB = new SQLCONNECTION();
         SQLCONNECTION cmd = new SQLCONNECTION();
