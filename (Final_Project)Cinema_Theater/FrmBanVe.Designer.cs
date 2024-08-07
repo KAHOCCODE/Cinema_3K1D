@@ -571,6 +571,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Banve";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmBanVe_FormClosed_1);
+            this.Load += new System.EventHandler(this.FrmBanVe_Load);
             this.grpLoaiVe.ResumeLayout(false);
             this.grpLoaiVe.PerformLayout();
             this.panel6.ResumeLayout(false);
