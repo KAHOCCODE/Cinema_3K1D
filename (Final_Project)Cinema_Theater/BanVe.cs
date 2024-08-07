@@ -26,7 +26,7 @@ namespace _Final_Project_Cinema_Theater
             InitializeComponent();
         }
 
-        //Thêm một property để lưu idLichChieu
+        //Thêm một property để lưu idLichChieuu
         private string selectedLichChieuID;
         // Biến để lưu trữ ngày chiếu
         private string selectedNgayChieu;
