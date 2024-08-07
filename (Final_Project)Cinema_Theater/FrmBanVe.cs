@@ -61,8 +61,15 @@ namespace datve11
         {
             if (checkkhachhangthanhvien.Checked)
             {
+<<<<<<< HEAD
+                //Hiển thị thông tin khách hàng thành viên bằng form loginthanhvien
+                //loginthanhvien f = new loginthanhvien();
+                //f.ShowDialog();
+                //nếu không có tên khách hàng thì bấm nút đăng nhập thì ko hiện pnCustomer
+=======
                 loginthanhvien f = new loginthanhvien();
                 f.ShowDialog();
+>>>>>>> 3a80d5739fd60feb3340ffb91fc0446440527022
                 if (string.IsNullOrEmpty(lbTenkh.Text))
                 {
                     pnCustomer.Visible = false;
@@ -582,6 +589,11 @@ namespace datve11
             //frm dưới dạng hàm con
             frm.MdiParent = this.MdiParent;
             frm.Show();
+        }
+
+        private void FrmBanVe_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
