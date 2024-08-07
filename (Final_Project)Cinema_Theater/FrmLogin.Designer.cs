@@ -75,6 +75,7 @@
             this.BtnDNhap.TabIndex = 2;
             this.BtnDNhap.Text = "Đăng Nhập";
             this.BtnDNhap.UseVisualStyleBackColor = false;
+            this.BtnDNhap.Click += new System.EventHandler(this.BtnDNhap_Click_1);
             // 
             // panel3
             // 

@@ -11,6 +11,8 @@ using System.Windows.Forms;
 
 namespace _Final_Project_Cinema_Theater
 {
+    //Tạo chuỗi kết nối bằng SQLCONNENCTION
+
     public partial class FrmLogin : Form
     {
         public FrmLogin()
@@ -41,26 +43,45 @@ namespace _Final_Project_Cinema_Theater
         //Hàm kiểm tra tài khoản và mật khẩu trong database ở bảng TaiKhoan để đăng nhập
         private bool CheckLogin(string username, string password)
         {
-            SQLCONNECTION mycon = new SQLCONNECTION();
-            mycon.conn.Open();
-            string sql = "SELECT * FROM TaiKhoan WHERE UserName = '" + username + "' AND Pass = '" + password + "'";
-            mycon.cmd = new SqlCommand(sql, mycon.conn);
-            SqlDataReader dta = mycon.cmd.ExecuteReader();
-            if (dta.Read() == true)
+            try
             {
-                mycon.conn.Close();
-                return true;
+                //Tạo kết nối với database
+                using (SqlConnection conn = SQLCONNECTION.GetConnection())
+                {
+                    conn.Open();
+                    string sql = "SELECT * FROM TaiKhoan WHERE UserName = @username AND Pass = @password";
+                    using (SqlCommand cmd = new SqlCommand(sql, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@username", username);
+                        cmd.Parameters.AddWithValue("@password", password);
+                        using (SqlDataReader dta = cmd.ExecuteReader())
+                        {
+                            return dta.Read();
+                        }
+                    }
+                }
             }
-            else
+            catch (SqlException ex)
             {
-                mycon.conn.Close();
+                // Log exception details (ex.Message) for further analysis
                 return false;
             }
         }
+
         //Tạo biến username để lưu tên nhân viên đăng nhập
         public static string username;
         public static string password;
         private void BtnDNhap_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnDNhap_Click_1(object sender, EventArgs e)
         {
             //Kiểm tra nếu là tài khoản có LoaiTK là số 1 thì sẽ mở form quản lý rạp phim còn nếu là LoaiTK là số 2 thì sẽ mở form quản lý NhanVien
             if (CheckLogin(TxtUsername.Text, TxtPassword.Text) == true)
@@ -100,11 +121,6 @@ namespace _Final_Project_Cinema_Theater
             {
                 MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        private void FrmLogin_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
