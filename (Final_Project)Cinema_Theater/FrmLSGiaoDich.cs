@@ -152,17 +152,14 @@ namespace _Final_Project_Cinema_Theater
             }
 
         }
-        //Hàm lấy idVe từ bảng Ve cho vào biến idVe
 
         private void BtnInVe_Click(object sender, EventArgs e)
         {
-            // Lấy idVe từ hàng được chọn trong DataGridView
             if (DsGiaoDIch.CurrentRow != null)
             {
                 DataGridViewRow row = DsGiaoDIch.CurrentRow;
                 string idVe = row.Cells["idVe"].Value.ToString();
 
-                // Truyền idVe vào constructor của InHoaDon
                 InHoaDon frm = new InHoaDon(idVe);
                 frm.Show();
             }

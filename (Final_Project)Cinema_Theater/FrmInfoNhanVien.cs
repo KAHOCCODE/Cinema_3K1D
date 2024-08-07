@@ -66,7 +66,7 @@ namespace _Final_Project_Cinema_Theater
                 {
                     connDB.conn.Open();
                 }
-                int count = (int)cmd.ExecuteScalar();
+                int count = (int)cmd.ExecuteScalar(); 
                 return count > 0;
             }
         }
@@ -334,6 +334,11 @@ namespace _Final_Project_Cinema_Theater
         private void groupBox2_Enter(object sender, EventArgs e)
         {
              
+        }
+
+        private void AnhNhanVien_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
