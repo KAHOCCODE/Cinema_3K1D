@@ -94,7 +94,7 @@ namespace datve11
             int column = int.Parse(ghe.Text.Substring(2));
             string loaiGhe = GetLoaiGhe(row, column);
 
-            // Kiểm tra loại ghế được chọn
+            // Kiểm tra loại ghế được chọn//
             if (LoaiGheHopLe(loaiGhe))
             {
                 if (selectedSeats[ghe] == false)
@@ -144,7 +144,7 @@ namespace datve11
             }
         }
 
-        // Phương thức để trả về loại ghế dựa trên hàng và cột
+        // Phương thức trả về loại ghế dựa trên dòng và cột của ghế
         private string GetLoaiGhe(char row, int column)
         {
             if (row < 'C')
