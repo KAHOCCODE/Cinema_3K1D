@@ -138,17 +138,35 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet2.xsd</DependentUpon>
     </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLSGiaoDich.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmLSGiaoDich.Designer.cs">
       <DependentUpon>FrmLSGiaoDich.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTaiKhoan.Designer.cs">
+      <DependentUpon>FrmTaiKhoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="InHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InHoaDon.Designer.cs">
       <DependentUpon>InHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLyRapPhim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLyRapPhim.Designer.cs">
+      <DependentUpon>QLyRapPhim.cs</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="vefirm.cs" />
@@ -188,8 +206,14 @@
     <EmbeddedResource Include="FrmInfoNhanVien.resx">
       <DependentUpon>FrmInfoNhanVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLSGiaoDich.resx">
       <DependentUpon>FrmLSGiaoDich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTaiKhoan.resx">
+      <DependentUpon>FrmTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HoaDon1.rdlc" />
     <EmbeddedResource Include="InHoaDon.resx">
@@ -205,6 +229,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="QLyRapPhim.resx">
+      <DependentUpon>QLyRapPhim.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="DataSet1.xsc">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
