@@ -70,9 +70,9 @@
             this.groupBox1.Controls.Add(this.DsKhachHang);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(472, 220);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -83,7 +83,7 @@
             this.DsKhachHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DsKhachHang.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DsKhachHang.Location = new System.Drawing.Point(2, 15);
-            this.DsKhachHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DsKhachHang.Margin = new System.Windows.Forms.Padding(2);
             this.DsKhachHang.Name = "DsKhachHang";
             this.DsKhachHang.RowHeadersWidth = 51;
             this.DsKhachHang.RowTemplate.Height = 24;
@@ -96,7 +96,7 @@
             this.splitContainer1.BackColor = System.Drawing.Color.Red;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -135,9 +135,9 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(472, 255);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
@@ -148,7 +148,7 @@
             // 
             this.MTxtSDTKH.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MTxtSDTKH.Location = new System.Drawing.Point(112, 141);
-            this.MTxtSDTKH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MTxtSDTKH.Margin = new System.Windows.Forms.Padding(2);
             this.MTxtSDTKH.Name = "MTxtSDTKH";
             this.MTxtSDTKH.Size = new System.Drawing.Size(154, 22);
             this.MTxtSDTKH.TabIndex = 152;
@@ -157,7 +157,7 @@
             // 
             this.TxtIdKH.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtIdKH.Location = new System.Drawing.Point(356, 65);
-            this.TxtIdKH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtIdKH.Margin = new System.Windows.Forms.Padding(2);
             this.TxtIdKH.Name = "TxtIdKH";
             this.TxtIdKH.Size = new System.Drawing.Size(98, 22);
             this.TxtIdKH.TabIndex = 151;
@@ -271,8 +271,8 @@
             // TxtCCCDKH
             // 
             this.TxtCCCDKH.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCCCDKH.Location = new System.Drawing.Point(112, 180);
-            this.TxtCCCDKH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtCCCDKH.Location = new System.Drawing.Point(112, 182);
+            this.TxtCCCDKH.Margin = new System.Windows.Forms.Padding(2);
             this.TxtCCCDKH.Name = "TxtCCCDKH";
             this.TxtCCCDKH.Size = new System.Drawing.Size(154, 22);
             this.TxtCCCDKH.TabIndex = 105;
@@ -293,7 +293,7 @@
             this.DtpNgaySinhKH.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DtpNgaySinhKH.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.DtpNgaySinhKH.Location = new System.Drawing.Point(122, 101);
-            this.DtpNgaySinhKH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DtpNgaySinhKH.Margin = new System.Windows.Forms.Padding(2);
             this.DtpNgaySinhKH.Name = "DtpNgaySinhKH";
             this.DtpNgaySinhKH.Size = new System.Drawing.Size(144, 22);
             this.DtpNgaySinhKH.TabIndex = 101;
@@ -301,8 +301,8 @@
             // TxtDiaChiKH
             // 
             this.TxtDiaChiKH.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDiaChiKH.Location = new System.Drawing.Point(293, 141);
-            this.TxtDiaChiKH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtDiaChiKH.Location = new System.Drawing.Point(294, 146);
+            this.TxtDiaChiKH.Margin = new System.Windows.Forms.Padding(2);
             this.TxtDiaChiKH.Multiline = true;
             this.TxtDiaChiKH.Name = "TxtDiaChiKH";
             this.TxtDiaChiKH.Size = new System.Drawing.Size(158, 58);
@@ -311,8 +311,8 @@
             // TxtHoTenKH
             // 
             this.TxtHoTenKH.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHoTenKH.Location = new System.Drawing.Point(112, 65);
-            this.TxtHoTenKH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtHoTenKH.Location = new System.Drawing.Point(112, 64);
+            this.TxtHoTenKH.Margin = new System.Windows.Forms.Padding(2);
             this.TxtHoTenKH.Name = "TxtHoTenKH";
             this.TxtHoTenKH.Size = new System.Drawing.Size(154, 22);
             this.TxtHoTenKH.TabIndex = 99;
@@ -368,7 +368,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(472, 478);
             this.Controls.Add(this.splitContainer1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmInfoKhachHang";
             this.Text = "Thông Tin Khách Hàng";
             this.Load += new System.EventHandler(this.FrmInfoKhachHang_Load);

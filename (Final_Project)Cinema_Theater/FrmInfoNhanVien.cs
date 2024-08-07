@@ -335,6 +335,11 @@ namespace _Final_Project_Cinema_Theater
         {
              
         }
+
+        private void AnhNhanVien_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

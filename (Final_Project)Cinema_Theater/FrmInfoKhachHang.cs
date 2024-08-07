@@ -52,7 +52,7 @@ namespace _Final_Project_Cinema_Theater
         }
         //Hàm kiểm tra CCCD có hợp lệ không là dạng ký tự kiểu số và có 12 ký tự viết ngắn gọn
         private bool CheckTrungCCCD(string CCCD)
-        {
+        {      
             string sqlCheck = "SELECT COUNT(*) FROM KhachHang WHERE CCCD = @CCCD";
             using (SqlCommand cmd = new SqlCommand(sqlCheck, connDB.conn))
             {
