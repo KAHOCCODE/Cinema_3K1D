@@ -61,10 +61,8 @@ namespace datve11
         {
             if (checkkhachhangthanhvien.Checked)
             {
-                //Hiển thị thông tin khách hàng thành viên bằng form loginthanhvien
                 loginthanhvien f = new loginthanhvien();
                 f.ShowDialog();
-                //nếu không có tên khách hàng thì bấm nút đăng nhập thì ko hiện pnCustomer
                 if (string.IsNullOrEmpty(lbTenkh.Text))
                 {
                     pnCustomer.Visible = false;
