@@ -18,7 +18,7 @@ namespace _Final_Project_Cinema_Theater
         public SQLCONNECTION()
         {
             // Khởi tạo chuỗi kết nối
-            connectionString = "Data Source=LAPTOP-QBAUIQJE\\PIEMON;Initial Catalog=QLRapPhim;Integrated Security=True";
+            connectionString = "Data Source=DESKTOP-3TRF427\\HOANGKADESKTOP-3TRF427\\HOANGKA;Initial Catalog=QLRapPhim;Integrated Security=True";
 
             // Khởi tạo đối tượng kết nối
             conn = new SqlConnection(connectionString);

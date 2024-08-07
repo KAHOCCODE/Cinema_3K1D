@@ -80,19 +80,19 @@
             // 
             this.button5.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(280, 56);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(94, 24);
             this.button5.TabIndex = 106;
-            this.button5.Text = "Tài Khoản";
+            this.button5.Text = "Tài Khoản ";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // TxtCCCD
             // 
             this.TxtCCCD.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCCCD.Location = new System.Drawing.Point(82, 211);
-            this.TxtCCCD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtCCCD.Location = new System.Drawing.Point(81, 214);
+            this.TxtCCCD.Margin = new System.Windows.Forms.Padding(2);
             this.TxtCCCD.Name = "TxtCCCD";
             this.TxtCCCD.Size = new System.Drawing.Size(119, 22);
             this.TxtCCCD.TabIndex = 105;
@@ -113,7 +113,7 @@
             this.DtpNgaySinh.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DtpNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.DtpNgaySinh.Location = new System.Drawing.Point(230, 175);
-            this.DtpNgaySinh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DtpNgaySinh.Margin = new System.Windows.Forms.Padding(2);
             this.DtpNgaySinh.Name = "DtpNgaySinh";
             this.DtpNgaySinh.Size = new System.Drawing.Size(144, 22);
             this.DtpNgaySinh.TabIndex = 101;
@@ -121,8 +121,8 @@
             // TxtDiaChi
             // 
             this.TxtDiaChi.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDiaChi.Location = new System.Drawing.Point(82, 248);
-            this.TxtDiaChi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtDiaChi.Location = new System.Drawing.Point(83, 251);
+            this.TxtDiaChi.Margin = new System.Windows.Forms.Padding(2);
             this.TxtDiaChi.Name = "TxtDiaChi";
             this.TxtDiaChi.Size = new System.Drawing.Size(292, 22);
             this.TxtDiaChi.TabIndex = 100;
@@ -193,8 +193,8 @@
             // TxtTen
             // 
             this.TxtTen.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtTen.Location = new System.Drawing.Point(220, 138);
-            this.TxtTen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtTen.Location = new System.Drawing.Point(221, 138);
+            this.TxtTen.Margin = new System.Windows.Forms.Padding(2);
             this.TxtTen.Name = "TxtTen";
             this.TxtTen.Size = new System.Drawing.Size(154, 22);
             this.TxtTen.TabIndex = 99;
@@ -202,8 +202,8 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(173, 56);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(174, 56);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 24);
             this.button1.TabIndex = 94;
@@ -249,7 +249,7 @@
             this.splitContainer1.BackColor = System.Drawing.Color.Red;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -289,9 +289,9 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(408, 287);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
@@ -301,8 +301,8 @@
             // MTxtSDT
             // 
             this.MTxtSDT.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MTxtSDT.Location = new System.Drawing.Point(250, 211);
-            this.MTxtSDT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MTxtSDT.Location = new System.Drawing.Point(256, 211);
+            this.MTxtSDT.Margin = new System.Windows.Forms.Padding(2);
             this.MTxtSDT.Name = "MTxtSDT";
             this.MTxtSDT.Size = new System.Drawing.Size(119, 22);
             this.MTxtSDT.TabIndex = 150;
@@ -320,8 +320,8 @@
             // 
             // TxtID
             // 
-            this.TxtID.Location = new System.Drawing.Point(256, 97);
-            this.TxtID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtID.Location = new System.Drawing.Point(253, 95);
+            this.TxtID.Margin = new System.Windows.Forms.Padding(2);
             this.TxtID.Name = "TxtID";
             this.TxtID.Size = new System.Drawing.Size(119, 27);
             this.TxtID.TabIndex = 148;
@@ -330,12 +330,13 @@
             // 
             this.AnhNhanVien.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.AnhNhanVien.Location = new System.Drawing.Point(40, 56);
-            this.AnhNhanVien.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnhNhanVien.Margin = new System.Windows.Forms.Padding(2);
             this.AnhNhanVien.Name = "AnhNhanVien";
             this.AnhNhanVien.Size = new System.Drawing.Size(100, 138);
             this.AnhNhanVien.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.AnhNhanVien.TabIndex = 103;
             this.AnhNhanVien.TabStop = false;
+            this.AnhNhanVien.Click += new System.EventHandler(this.AnhNhanVien_Click);
             // 
             // label4
             // 
@@ -354,9 +355,9 @@
             this.groupBox1.Controls.Add(this.DsNhanVien);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(408, 262);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -367,7 +368,7 @@
             this.DsNhanVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DsNhanVien.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DsNhanVien.Location = new System.Drawing.Point(2, 15);
-            this.DsNhanVien.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DsNhanVien.Margin = new System.Windows.Forms.Padding(2);
             this.DsNhanVien.Name = "DsNhanVien";
             this.DsNhanVien.RowHeadersWidth = 51;
             this.DsNhanVien.RowTemplate.Height = 24;
@@ -381,7 +382,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(408, 552);
             this.Controls.Add(this.splitContainer1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmInfoNhanVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thông Tin Nhân Viên";
