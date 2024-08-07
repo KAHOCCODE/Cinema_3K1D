@@ -26,7 +26,7 @@ namespace _Final_Project_Cinema_Theater
             InitializeComponent();
         }
 
-        //Thêm một property để lưu idLichChieuu
+        //Thêm một property để lưu idLichChieu
         private string selectedLichChieuID;
         // Biến để lưu trữ ngày chiếu
         private string selectedNgayChieu;
@@ -194,7 +194,7 @@ namespace _Final_Project_Cinema_Theater
             FrmBanVe frmBanVe = new FrmBanVe(idLichChieu);
 
             // Truyền tên phim và idLichChieu vào FrmBanVe
-            frmBanVe.SetMovieTitle(CboDsPhim.SelectedItem.ToString(),gioChieuFormatted);
+            frmBanVe.SetMovieTitle(CboDsPhim.SelectedItem.ToString(), gioChieuFormatted);
 
             // Hiển thị FrmBanVe và ẩn form hiện tại
             frmBanVe.Show();
